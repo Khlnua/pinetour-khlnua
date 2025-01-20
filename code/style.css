@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    margin-inline: auto ; width: 1440px; 
+}
+header
+{   
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+nav{ display: flex; gap: 24px;}
+nav a 
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 100px; 
+    display: block;
+    text-decoration: none;
+}
+.usericon 
+{
+    width: 20px;
+}
+.language {
+    font-size: 14px;
+    font-weight: 600;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.hero {
+    width: 1440px ; height: 773px;
+    background-image: url(./images/Hero.png);
+    display: flex; 
+    justify-content: center;
+    align-items: center;}
+
+.text { 
+    width: 618px; 
+    height: 394px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;}
+ h2 { font-size: 80px; font-weight: 500; color: white;}
+ h1 { font-size: 250px; font-weight: 500px; color: white;}
+ h3 { font-size: 64px; font-weight: 900; color: white;}
+
+.location {
+    width: 1440px; height: 512px;
+    background-image: url(./images/Location\ image.png);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.zurag { width: 1202px ; height: 370px; 
+    display: flex; flex-direction: row; gap: 18px;}
+.zu { width:276px ; height: 370px;}
+h5{ font-size: 37px;font-weight: 500; text-align: center; color: white; }
+
+.roadmap{
+    width: 1440px; height: 1022px;
+    background-image: url(./images/Roadmap\ image.png);
+    display: flex; 
+    flex-direction: column; 
+}
+.rtext { display: flex; flex-direction: column; align-items: center; gap: 10px;}
+h4{ font-size: 42px; font-weight:600px; }
+p{ font-size:20px; font-weight: 400px;}
+footer {
+    width: 1440px; height: 1120px ;
+    background-image: url(./images/Price&Footer\ image.png);
+}
