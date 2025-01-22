@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -10,11 +10,13 @@
   width: 1440px;
 }
 header {
+  width: 1440px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  background-color: skyblue;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 10;
 }
 nav {
   display: flex;
@@ -31,6 +33,11 @@ nav a {
 }
 .usericon {
   width: 20px;
+}
+.hhed {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", serif;
 }
 .language {
   font-size: 14px;
@@ -61,14 +68,14 @@ nav a {
   align-items: center;
 }
 h2 {
-    font-family: "Bebas Neue", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 80px;
   font-weight: 500;
   color: white;
   opacity: 72%;
 }
 h1 {
-    font-family: "Bebas Neue", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 250px;
   font-weight: 500px;
   color: white;
@@ -102,14 +109,19 @@ h3 {
   border: 8px solid rgb(108, 131, 172);
   border-radius: 40px;
 }
-.qk { position: relative;}
-p {
+.qk {
+  position: relative;
+}
+.zu:hover {
+  opacity: 0.5;
+}
+.ff {
   font-size: 37px;
   font-weight: 400;
   text-align: center;
   font-family: "Bebas Neue", serif;
   color: white;
-  position: absolute; 
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -128,12 +140,12 @@ p {
   gap: 10px;
 }
 h4 {
-    font-family: "Inter", serif;
+  font-family: "Inter", serif;
   font-size: 42px;
   font-weight: 300px;
 }
 h6 {
-    font-family:  "Inter", serif;
+  font-family: "Inter", serif;
   font-size: 20px;
   font-weight: 200px;
 }
@@ -141,13 +153,262 @@ footer {
   width: 1440px;
   height: 1120px;
   background-image: url(./images/Price&Footer\ image.png);
+  position: relative;
+}
+.frame {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 264px;
+  margin-left: 120px;
 }
 .listed-map {
-    width: 513px ; height: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  width: 513px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
-.box
-{ width: 513px; height: 112px; }
-.pin { width: 14px; height: 14px;}
+.box {
+  width: 513px;
+  height: 112px;
+  border-radius: 100000000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.pin {
+  width: 14px;
+  height: 14px;
+}
+.ub {
+  background-color: rgba(255, 228, 196, 0.764);
+}
+.bulgan {
+  background-color: rgba(75, 127, 146, 0.727);
+}
+.arkh {
+  background-color: rgba(117, 156, 163, 0.765);
+}
+.arkhan {
+  background-color: rgba(72, 160, 144, 0.778);
+}
+.khuv {
+  background-color: rgba(135, 206, 250, 0.717);
+}
+.circle {
+  width: 52px;
+  height: 52px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smll {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.heart {
+  width: 36px;
+  height: 36px;
+}
+.tt {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  gap: 15px;
+}
+.pricebox {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 204px;
+  margin-left: 120px;
+}
+.pack {
+  width: 384px;
+  height: 527px;
+  background-color: aliceblue;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.pack:hover {
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  border-radius: 40px;
+}
+.dd {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.inf {
+  width: 384px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+}
+.zuv {
+  width: 15px;
+  height: 11px;
+}
+.list {
+  width: 296px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+}
+.price {
+  width: 336px;
+  height: 49px;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.note {
+  width: 336px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+  color: #919191;
+  margin-left: 20px;
+}
+.bagts {
+  width: 336px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 35px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.kk {
+  width: 256px;
+  height: 22px;
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.exp {
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3f4145;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 99999px;
+  margin-top: 45px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+.about {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.nar {
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 100px;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+}
+.rr {
+  width: 167px;
+  height: 44px;
+  background-color: aliceblue;
+  border-radius: 99999px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 20px 10px 20px;
+}
+.llo {
+  color: #6972b5;
+  width: 93px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", serif;
+}
+.pinee {
+  width: 101px;
+  height: 35px;
+}
+.pine {
+  margin-left: 800px;
+}
+.mappin {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.p1 {
+  top: 340px;
+  left: 820px;
+}
+.p2 {
+  top: -30px;
+  left: 820px;
+}
+.p3 {
+  top: 104px;
+  left: 650px;
+}
+.p4 {
+  top: 95px;
+  left: 1045px;
+}
+.p5 {
+  top: -120px;
+  left: 630px;
+}
+h5 {
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.city {
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #18181b;
+}
+.pinned-map {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
